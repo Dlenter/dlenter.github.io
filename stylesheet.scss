@@ -1,0 +1,113 @@
+$font-color: rgb(153, 72, 72);
+$link-highlight: rgb(216, 137, 137);
+$bg-color: rgb(50, 50, 59);
+
+html {
+    font-size: 10px;
+}
+body {
+    background-color: $bg-color;
+    color: $font-color;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+// main body
+.main-body {
+    margin-top: 80px;
+}
+// responsive main body
+@media (max-width: 992px) {
+    .main-body { margin-top: 40px;}
+}
+@media (max-width: 768px){
+    .main-body { margin-top: 0;}
+}
+
+// Font Styling
+
+h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-size: 2.2rem;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size: 2.1rem;
+    margin: 0;
+    padding: 0;
+    text-indent: 30px;
+}
+.standard-text {
+    font-size: 2.1rem;
+}
+
+// Link styling
+a {
+    text-decoration: none;
+    color: $font-color;
+    &:hover {
+        text-decoration: underline;
+        color: $link-highlight;
+    }
+}
+
+// bootstrap grid styling
+.aboutme {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+// Top Navbar
+
+#djl {
+    &:hover {
+        color: rgb(129, 168, 168);
+    }
+}
+
+.top-bar {
+    font-size: 1.8rem;
+    margin: 10px;
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        padding: 5px;
+        float: left;
+    }
+}
+
+// about page music table
+.about-music-table {
+    display: inline-block;
+    height: 360px;
+    margin: 5px;
+    td {
+        border-spacing: 0 0;
+        padding: 0px;
+        border: 2px solid rgb(0, 0, 0);
+    }
+    img {
+        height: 160px;
+        width: 160px;
+    }
+}
+
+
+// general classes
+.center {
+    text-align: center;
+}
