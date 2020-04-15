@@ -5,7 +5,7 @@ html {
 body {
   background-color: #32323b;
   color: #994848;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Dosis, Georgia, "Times New Roman", Times, serif;
   margin: 0;
   padding: 0;
 }
@@ -24,29 +24,25 @@ body {
     margin-top: 0;
   }
 }
-h1 {
-  font-size: 4rem;
-  font-weight: 800;
+.standard-text, p, h2, h1 {
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 800;
+  font-style: italic;
 }
 
 h2 {
-  font-size: 3rem;
-  margin: 0;
-  padding: 0;
-}
-
-h3 {
-  font-size: 2.2rem;
-  margin: 0;
-  padding: 0;
+  font-size: 3.2rem;
+  font-weight: 800;
+  font-style: italic;
 }
 
 p {
   font-size: 2.1rem;
-  margin: 0;
-  padding: 0;
   text-indent: 30px;
 }
 
@@ -55,20 +51,18 @@ p {
 }
 
 a {
-  text-decoration: none;
   color: #994848;
+  font-style: italic;
+  text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
   color: #d88989;
 }
 
-.aboutme {
-  background-color: rgba(255, 255, 255, 0.075);
-}
-
 #djl:hover {
   color: #81a8a8;
+  text-decoration: none;
 }
 
 .top-bar {
@@ -81,6 +75,32 @@ a:hover {
 .top-bar li {
   padding: 5px;
   float: left;
+}
+
+.header-topbar {
+  background-color: #797988;
+  padding: 10px 100px;
+}
+
+@media (max-width: 900px) {
+  .header-topbar {
+    padding: 10px;
+  }
+}
+.home-banner {
+  margin-top: 100px;
+}
+
+@media (max-width: 992px) {
+  .home-banner {
+    margin-top: 0;
+  }
+  .home-banner img {
+    width: 100%;
+  }
+}
+.home-nav {
+  font-size: 2.1rem;
 }
 
 .about-music-table {
@@ -98,8 +118,14 @@ a:hover {
   width: 160px;
 }
 
-.center {
-  text-align: center;
+.blog-post p.blog-date {
+  font-size: 2rem;
+  font-style: italic;
+}
+.blog-post p.blog-text {
+  font-size: 1.6rem;
+  padding: 10px 0;
+  text-indent: 30px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
