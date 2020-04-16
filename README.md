@@ -28,7 +28,7 @@
     * Music tastes paragraph
 * Blog page - blog.html
     * Column for blog post dates, column for blog post itself
-    * "<p>" tags formatted to have indent
+    * `<p>` tags formatted to have indent
 * Photography gallery - gallery.html
     * 12 images, fit into individual columns, in one row so that bootstrap would wrap them automagically
     * Clicking an image opens up the original in a new tab
