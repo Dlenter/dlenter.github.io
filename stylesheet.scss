@@ -1,14 +1,17 @@
-$font-color: rgb(153, 72, 72);
-$link-highlight: rgb(216, 137, 137);
-$bg-color: rgb(50, 50, 59);
-$bg-color2: rgb(121, 121, 136);
+$crimson-color: rgb(153, 72, 72);
+$pink-color: rgb(216, 137, 137);
+$charcoal-color: rgb(50, 50, 59);
+$cream-color: rgb(158, 155, 126);
+$cream-color-transparent: rgba(158, 155, 126, 0.342);
+$cream-color-lighter: rgb(192, 188, 152);
+$turquoise-color: rgb(129, 168, 168);
 
 html {
     font-size: 10px;
 }
 body {
-    background-color: $bg-color;
-    color: $font-color;
+    background-color: $charcoal-color;
+    color: $crimson-color;
     font-family: Dosis, Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
@@ -57,12 +60,12 @@ p {
 
 // Link styling
 a {
-    color: $font-color;
+    color: $crimson-color;
     font-style: italic;
     text-decoration: none;
     &:hover {
         text-decoration: underline;
-        color: $link-highlight;
+        color: $pink-color;
     }
 }
 
@@ -71,7 +74,7 @@ a {
 
 #djl {
     &:hover {
-        color: rgb(129, 168, 168);
+        color: $turquoise-color;
         text-decoration: none;
     }
 }
@@ -93,8 +96,15 @@ a {
 // header top bar
 
 .header-topbar {
-    background-color: $bg-color2;
+    background-color: $cream-color;
     padding: 10px 100px;
+
+    h1 {
+        color: $charcoal-color;
+    }
+    &:hover {
+        background-color: $cream-color-lighter;
+    }
 }
 @media (max-width: 900px) {
     .header-topbar {
@@ -150,3 +160,16 @@ a {
         text-indent: 30px;
     }
 }
+
+// gallery
+
+#gallery-click-expand {
+    font-style: italic;
+}
+
+
+.gallery-image{
+    width: 100%;
+    height: auto;
+}
+

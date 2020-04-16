@@ -78,8 +78,14 @@ a:hover {
 }
 
 .header-topbar {
-  background-color: #797988;
+  background-color: #9e9b7e;
   padding: 10px 100px;
+}
+.header-topbar h1 {
+  color: #32323b;
+}
+.header-topbar:hover {
+  background-color: #c0bc98;
 }
 
 @media (max-width: 900px) {
@@ -126,6 +132,15 @@ a:hover {
   font-size: 1.6rem;
   padding: 10px 0;
   text-indent: 30px;
+}
+
+#gallery-click-expand {
+  font-style: italic;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
