@@ -14,25 +14,19 @@ Alright, now it’s time to make your website your own. Design a personal webpag
 * In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
 
 
-4 pages
--home - index.html
-    -basic image DJL or smth
--Aboutme - about.html
-    -live in CA, family
-    -hobbies, grew up half-hobbyist
-    -hobbies list UL
-    -music image table and list
--photography "blog" - blog.html
-    -2 articles for prototyping purposes:
-        *Golden hour
-        *"One-Way photography"
--Photography - gallery.html
-    -table of images
-    -12 images, width auto, height 320
-    -bootstrap grid
-
-todo:
-about page bottom margin on main body?
-home screen decide on content
-MY BLOG
-GALLERY
+##4 pages
+* home - index.html
+    * basic image DJL or smth
+* Aboutme - about.html
+    * live in CA, family
+    * hobbies, grew up half-hobbyist
+    * hobbies list UL
+    * music image table and list
+* photography "blog" - blog.html
+    * 2 articles for prototyping purposes:
+        * Golden hour
+        * "One-Way photography"
+* Photography - gallery.html
+    * table of images
+    * 12 images, width auto, height 320
+    * bootstrap grid
